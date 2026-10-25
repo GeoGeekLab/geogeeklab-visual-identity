@@ -1,0 +1,658 @@
+{
+  "name": "GeoGeekLab Visual Identity System",
+  "version": "0.2.0",
+  "date": "2026-10-25",
+  "source": "GitHub public repository inventory of 26 projects; based on assets checked in prior turn",
+  "brand_tokens": {
+    "background": "#F6F4EE",
+    "text": "#152019",
+    "secondary": "#435048",
+    "signal": "#A64624",
+    "atlas_dark": "#17211B",
+    "fonts": {
+      "interface": "Instrument Sans",
+      "editorial": "Newsreader",
+      "data": "IBM Plex Mono"
+    }
+  },
+  "records": [
+    {
+      "repo": "GeoGeekLab",
+      "name": "GeoGeek Profile",
+      "category": "no-new-design",
+      "accent": "#A64624",
+      "status": "retain existing / no modifications",
+      "brand": "GeoGeekLab",
+      "tagline": "Retain existing identity.",
+      "design_goal": "Respect the current typography-first profile / website identity.",
+      "guardrails": "No mascot or new logo should be introduced for this repository.",
+      "source_of_truth": "https://github.com/GeoGeekLab/GeoGeekLab",
+      "assets": []
+    },
+    {
+      "repo": "GeoGeekLab.github.io",
+      "name": "GeoGeek Site",
+      "category": "no-new-design",
+      "accent": "#A64624",
+      "status": "retain existing / no modifications",
+      "brand": "GeoGeekLab",
+      "tagline": "Retain existing identity.",
+      "design_goal": "Respect the current typography-first profile / website identity.",
+      "guardrails": "No mascot or new logo should be introduced for this repository.",
+      "source_of_truth": "https://github.com/GeoGeekLab/GeoGeekLab.github.io",
+      "assets": []
+    },
+    {
+      "repo": "academic-terminology-zh",
+      "name": "Ink Crane",
+      "category": "new-mascot",
+      "accent": "#A65D4D",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "Clarify academic Chinese terms with precision and restraint.",
+      "design_goal": "Clarify academic Chinese terms with precision and restraint.",
+      "guardrails": "Keep red crown and elegant thin legs; do not overuse national symbols or imply official language authority.",
+      "source_of_truth": "new-mascots/academic-terminology-zh/concept.svg",
+      "assets": [
+        "new-mascots/academic-terminology-zh/concept.svg",
+        "new-mascots/academic-terminology-zh/concept-avatar.svg",
+        "new-mascots/academic-terminology-zh/concept-readme-hero.svg"
+      ],
+      "anchors": "An upright crane proofreading a terminology notebook.",
+      "states": "Read → compare → correct → verify.",
+      "species": "Crane",
+      "asset_status": "working prototypes; expressions and action poses remain to be drawn",
+      "png_exports": [
+        "png/academic-terminology-zh/32.png",
+        "png/academic-terminology-zh/64.png",
+        "png/academic-terminology-zh/128.png",
+        "png/academic-terminology-zh/256.png"
+      ]
+    },
+    {
+      "repo": "awesome-tech-feeds",
+      "name": "Geo Gecko",
+      "category": "existing-mascot",
+      "accent": "#A64624",
+      "status": "retain existing / no modifications",
+      "brand": "GeoGeekLab",
+      "tagline": "RSS discovery and curation as engineering infrastructure.",
+      "design_goal": "RSS discovery and curation as engineering infrastructure.",
+      "guardrails": "Already has a canonical SVG/tokens/spec. Do not change its colors or silhouette.",
+      "source_of_truth": "https://github.com/GeoGeekLab/awesome-tech-feeds/blob/main/brand/mascot/core.svg",
+      "assets": [],
+      "anchors": "Round mint gecko, sparkling eyes, curled blue RSS tail.",
+      "states": "Idle → fetching → scanning → verified.",
+      "existing_source": "brand/mascot/core.svg",
+      "existing_compact_source": "brand/mascot/head.svg"
+    },
+    {
+      "repo": "earth-in-change",
+      "name": "Earth in Change",
+      "category": "logo",
+      "accent": "#6B9F92",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "Same Earth. Different moments.",
+      "design_goal": "A common geographic extent, separated by observation dates.",
+      "guardrails": "Avoid turning the Earth into a dramatic before/after claim; two imagery colors are symbolic, not measured changes.",
+      "source_of_truth": "logos/earth-in-change/primary.svg",
+      "assets": [
+        "logos/earth-in-change/primary.svg",
+        "logos/earth-in-change/monochrome.svg",
+        "logos/earth-in-change/inverse.svg",
+        "logos/earth-in-change/app-icon.svg",
+        "logos/earth-in-change/readme-hero.svg",
+        "logos/earth-in-change/social-preview.svg"
+      ],
+      "descriptor": "Earth in Change · Observation across time.",
+      "anchors": "Temporal split, geographic continuity, product provenance.",
+      "type": "geometric mark",
+      "asset_status": "editable geometric SVG prototypes; approval needed",
+      "png_exports": [
+        "png/earth-in-change/32.png",
+        "png/earth-in-change/64.png",
+        "png/earth-in-change/128.png",
+        "png/earth-in-change/256.png"
+      ]
+    },
+    {
+      "repo": "earth-pulse",
+      "name": "Earth Pulse",
+      "category": "logo",
+      "accent": "#CE8C5A",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "Listen to the ground.",
+      "design_goal": "Earthquake events in space and time, with a seismogram motif.",
+      "guardrails": "Do not confuse an earthquake record with an ECG / cardiac heartbeat.",
+      "source_of_truth": "logos/earth-pulse/primary.svg",
+      "assets": [
+        "logos/earth-pulse/primary.svg",
+        "logos/earth-pulse/monochrome.svg",
+        "logos/earth-pulse/inverse.svg",
+        "logos/earth-pulse/app-icon.svg",
+        "logos/earth-pulse/readme-hero.svg",
+        "logos/earth-pulse/social-preview.svg"
+      ],
+      "descriptor": "Seismicity · Events across space and time.",
+      "anchors": "Wave propagation, events, epicenter.",
+      "type": "geometric mark",
+      "asset_status": "editable geometric SVG prototypes; approval needed",
+      "png_exports": [
+        "png/earth-pulse/32.png",
+        "png/earth-pulse/64.png",
+        "png/earth-pulse/128.png",
+        "png/earth-pulse/256.png"
+      ]
+    },
+    {
+      "repo": "engineering-quality",
+      "name": "Evi",
+      "category": "existing-mascot",
+      "accent": "#A64624",
+      "status": "retain existing / no modifications",
+      "brand": "GeoGeekLab",
+      "tagline": "Make agents prove their patches.",
+      "design_goal": "Make agents prove their patches.",
+      "guardrails": "Preserve current Evi art; verification evidence should be the dominant prop.",
+      "source_of_truth": "https://github.com/GeoGeekLab/engineering-quality/blob/main/assets/mascot/evi.jpg",
+      "assets": [],
+      "anchors": "Existing robot/character identity; confirm original construction sheet.",
+      "states": "Recon → contract → change → verify.",
+      "existing_source": "assets/mascot/evi.jpg",
+      "existing_compact_source": "assets/mascot/evi-identity-system.jpg"
+    },
+    {
+      "repo": "geodebug",
+      "name": "GeoMole",
+      "category": "existing-mascot",
+      "accent": "#A64624",
+      "status": "retain existing / no modifications",
+      "brand": "GeoGeekLab",
+      "tagline": "Find the geographic bug, not just the code bug.",
+      "design_goal": "Find the geographic bug, not just the code bug.",
+      "guardrails": "Do not replace the original mole or confuse GIS diagnostics with cartographic aesthetics.",
+      "source_of_truth": "https://github.com/GeoGeekLab/geodebug/blob/main/assets/geomole.png",
+      "assets": [],
+      "anchors": "Mole silhouette, geographic inspection posture.",
+      "states": "Explore → inspect → detect → explain.",
+      "existing_source": "assets/geomole.png",
+      "existing_compact_source": "assets/geomole-icon.png"
+    },
+    {
+      "repo": "geographic-flow-lab",
+      "name": "Geographic Flow Laboratory",
+      "category": "logo",
+      "accent": "#3D8D9A",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "See movement as structure.",
+      "design_goal": "A set of directed flow paths in geographic space.",
+      "guardrails": "Do not infer physical flow speed solely from arrow spacing or thickness.",
+      "source_of_truth": "logos/geographic-flow-lab/primary.svg",
+      "assets": [
+        "logos/geographic-flow-lab/primary.svg",
+        "logos/geographic-flow-lab/monochrome.svg",
+        "logos/geographic-flow-lab/inverse.svg",
+        "logos/geographic-flow-lab/app-icon.svg",
+        "logos/geographic-flow-lab/readme-hero.svg",
+        "logos/geographic-flow-lab/social-preview.svg"
+      ],
+      "descriptor": "Geographic flows · Fields and trajectories.",
+      "anchors": "Vector fields, OD links, trajectories.",
+      "type": "geometric mark",
+      "asset_status": "editable geometric SVG prototypes; approval needed",
+      "png_exports": [
+        "png/geographic-flow-lab/32.png",
+        "png/geographic-flow-lab/64.png",
+        "png/geographic-flow-lab/128.png",
+        "png/geographic-flow-lab/256.png"
+      ]
+    },
+    {
+      "repo": "image-to-trace",
+      "name": "Image → Trace",
+      "category": "logo",
+      "accent": "#4D9B7C",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "From pixels to paths.",
+      "design_goal": "An explicit translation from sampled image field to contours.",
+      "guardrails": "Do not suggest that detected contours equal real object boundaries without validation.",
+      "source_of_truth": "logos/image-to-trace/primary.svg",
+      "assets": [
+        "logos/image-to-trace/primary.svg",
+        "logos/image-to-trace/monochrome.svg",
+        "logos/image-to-trace/inverse.svg",
+        "logos/image-to-trace/app-icon.svg",
+        "logos/image-to-trace/readme-hero.svg",
+        "logos/image-to-trace/social-preview.svg"
+      ],
+      "descriptor": "Raster data · Geometry extraction.",
+      "anchors": "Raster cells, level sets, vector geometry.",
+      "type": "geometric mark",
+      "asset_status": "editable geometric SVG prototypes; approval needed",
+      "png_exports": [
+        "png/image-to-trace/32.png",
+        "png/image-to-trace/64.png",
+        "png/image-to-trace/128.png",
+        "png/image-to-trace/256.png"
+      ]
+    },
+    {
+      "repo": "ipcc-wg1-scientific-plotting-skill",
+      "name": "Scientific Plotting",
+      "category": "logo",
+      "accent": "#B6774C",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "Show the estimate. Show uncertainty.",
+      "design_goal": "A central estimate with a defensible uncertainty band.",
+      "guardrails": "Do not imply official IPCC affiliation or reproduce IPCC branding.",
+      "source_of_truth": "logos/ipcc-wg1-scientific-plotting-skill/primary.svg",
+      "assets": [
+        "logos/ipcc-wg1-scientific-plotting-skill/primary.svg",
+        "logos/ipcc-wg1-scientific-plotting-skill/monochrome.svg",
+        "logos/ipcc-wg1-scientific-plotting-skill/inverse.svg",
+        "logos/ipcc-wg1-scientific-plotting-skill/app-icon.svg",
+        "logos/ipcc-wg1-scientific-plotting-skill/readme-hero.svg",
+        "logos/ipcc-wg1-scientific-plotting-skill/social-preview.svg"
+      ],
+      "descriptor": "Scientific plotting · Uncertainty representation.",
+      "anchors": "Evidence, intervals, visual grammar.",
+      "type": "geometric mark",
+      "asset_status": "editable geometric SVG prototypes; approval needed",
+      "png_exports": [
+        "png/ipcc-wg1-scientific-plotting-skill/32.png",
+        "png/ipcc-wg1-scientific-plotting-skill/64.png",
+        "png/ipcc-wg1-scientific-plotting-skill/128.png",
+        "png/ipcc-wg1-scientific-plotting-skill/256.png"
+      ]
+    },
+    {
+      "repo": "modern-software-codex-skills",
+      "name": "Builder Beaver",
+      "category": "new-mascot",
+      "accent": "#B37951",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "Structure modular coding workflows and reliable software construction.",
+      "design_goal": "Structure modular coding workflows and reliable software construction.",
+      "guardrails": "Keep distinctive broad tail and practical tool; first check that existing README image can legally be replaced.",
+      "source_of_truth": "new-mascots/modern-software-codex-skills/concept.svg",
+      "assets": [
+        "new-mascots/modern-software-codex-skills/concept.svg",
+        "new-mascots/modern-software-codex-skills/concept-avatar.svg",
+        "new-mascots/modern-software-codex-skills/concept-readme-hero.svg"
+      ],
+      "anchors": "A beaver engineering modular systems.",
+      "states": "Plan → build → test → refactor.",
+      "species": "Beaver",
+      "asset_status": "working prototypes; expressions and action poses remain to be drawn",
+      "png_exports": [
+        "png/modern-software-codex-skills/32.png",
+        "png/modern-software-codex-skills/64.png",
+        "png/modern-software-codex-skills/128.png",
+        "png/modern-software-codex-skills/256.png"
+      ]
+    },
+    {
+      "repo": "nature-atmospheric-science-reviewer-skill",
+      "name": "RefFox · Atmospheric Science",
+      "category": "family",
+      "accent": "#7CAAC3",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "One character. Many domains.",
+      "design_goal": "Check retrieval and reanalysis assumptions, vertical profiles and validation.",
+      "guardrails": "A modeled field is not automatically an observation. Do not release concept art before aligning it with canonical RefFox.",
+      "source_of_truth": "https://github.com/GeoGeekLab/nature-reviewer-skills/blob/main/assets/reffox/reffox-main.png",
+      "assets": [
+        "family/ref-fox/nature-atmospheric-science-reviewer-skill/concept.svg",
+        "family/ref-fox/nature-atmospheric-science-reviewer-skill/concept-avatar.svg",
+        "family/ref-fox/nature-atmospheric-science-reviewer-skill/concept-readme-hero.svg"
+      ],
+      "anchors": "Invariant RefFox face, ears, glasses and posture.",
+      "domain_prop": "Vertical profile + radiosonde.",
+      "asset_status": "noncanonical exploratory drawings; need master-image adaptation",
+      "png_exports": [
+        "png/nature-atmospheric-science-reviewer-skill/32.png",
+        "png/nature-atmospheric-science-reviewer-skill/64.png",
+        "png/nature-atmospheric-science-reviewer-skill/128.png",
+        "png/nature-atmospheric-science-reviewer-skill/256.png"
+      ]
+    },
+    {
+      "repo": "nature-chemistry-reviewer-skill",
+      "name": "RefFox · Chemistry",
+      "category": "family",
+      "accent": "#A8728D",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "One character. Many domains.",
+      "design_goal": "Check calibration, controls, selectivity and mechanism.",
+      "guardrails": "Do not illustrate an unverified reaction mechanism as fact. Do not release concept art before aligning it with canonical RefFox.",
+      "source_of_truth": "https://github.com/GeoGeekLab/nature-reviewer-skills/blob/main/assets/reffox/reffox-main.png",
+      "assets": [
+        "family/ref-fox/nature-chemistry-reviewer-skill/concept.svg",
+        "family/ref-fox/nature-chemistry-reviewer-skill/concept-avatar.svg",
+        "family/ref-fox/nature-chemistry-reviewer-skill/concept-readme-hero.svg"
+      ],
+      "anchors": "Invariant RefFox face, ears, glasses and posture.",
+      "domain_prop": "Calibration curve + flask.",
+      "asset_status": "noncanonical exploratory drawings; need master-image adaptation",
+      "png_exports": [
+        "png/nature-chemistry-reviewer-skill/32.png",
+        "png/nature-chemistry-reviewer-skill/64.png",
+        "png/nature-chemistry-reviewer-skill/128.png",
+        "png/nature-chemistry-reviewer-skill/256.png"
+      ]
+    },
+    {
+      "repo": "nature-climate-ecology-reviewer-skill",
+      "name": "RefFox · Climate & Ecology",
+      "category": "family",
+      "accent": "#6B986B",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "One character. Many domains.",
+      "design_goal": "Check sampling, drivers, uncertainty and attribution.",
+      "guardrails": "Do not confuse correlation with a causal climate mechanism. Do not release concept art before aligning it with canonical RefFox.",
+      "source_of_truth": "https://github.com/GeoGeekLab/nature-reviewer-skills/blob/main/assets/reffox/reffox-main.png",
+      "assets": [
+        "family/ref-fox/nature-climate-ecology-reviewer-skill/concept.svg",
+        "family/ref-fox/nature-climate-ecology-reviewer-skill/concept-avatar.svg",
+        "family/ref-fox/nature-climate-ecology-reviewer-skill/concept-readme-hero.svg"
+      ],
+      "anchors": "Invariant RefFox face, ears, glasses and posture.",
+      "domain_prop": "Sampling plots + vegetation layers.",
+      "asset_status": "noncanonical exploratory drawings; need master-image adaptation",
+      "png_exports": [
+        "png/nature-climate-ecology-reviewer-skill/32.png",
+        "png/nature-climate-ecology-reviewer-skill/64.png",
+        "png/nature-climate-ecology-reviewer-skill/128.png",
+        "png/nature-climate-ecology-reviewer-skill/256.png"
+      ]
+    },
+    {
+      "repo": "nature-engineering-reviewer-skill",
+      "name": "RefFox · Engineering",
+      "category": "family",
+      "accent": "#B27E52",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "One character. Many domains.",
+      "design_goal": "Check prototype scope, physical validation and performance claims.",
+      "guardrails": "Do not imply deployment readiness from a proof of concept. Do not release concept art before aligning it with canonical RefFox.",
+      "source_of_truth": "https://github.com/GeoGeekLab/nature-reviewer-skills/blob/main/assets/reffox/reffox-main.png",
+      "assets": [
+        "family/ref-fox/nature-engineering-reviewer-skill/concept.svg",
+        "family/ref-fox/nature-engineering-reviewer-skill/concept-avatar.svg",
+        "family/ref-fox/nature-engineering-reviewer-skill/concept-readme-hero.svg"
+      ],
+      "anchors": "Invariant RefFox face, ears, glasses and posture.",
+      "domain_prop": "Test rig + engineering drawing.",
+      "asset_status": "noncanonical exploratory drawings; need master-image adaptation",
+      "png_exports": [
+        "png/nature-engineering-reviewer-skill/32.png",
+        "png/nature-engineering-reviewer-skill/64.png",
+        "png/nature-engineering-reviewer-skill/128.png",
+        "png/nature-engineering-reviewer-skill/256.png"
+      ]
+    },
+    {
+      "repo": "nature-hydrology-reviewer-skill",
+      "name": "RefFox · Hydrology",
+      "category": "family",
+      "accent": "#387CA7",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "One character. Many domains.",
+      "design_goal": "Check gauge support, basins, balances and temporal scales.",
+      "guardrails": "A stage record is not equivalent to discharge. Do not release concept art before aligning it with canonical RefFox.",
+      "source_of_truth": "https://github.com/GeoGeekLab/nature-reviewer-skills/blob/main/assets/reffox/reffox-main.png",
+      "assets": [
+        "family/ref-fox/nature-hydrology-reviewer-skill/concept.svg",
+        "family/ref-fox/nature-hydrology-reviewer-skill/concept-avatar.svg",
+        "family/ref-fox/nature-hydrology-reviewer-skill/concept-readme-hero.svg"
+      ],
+      "anchors": "Invariant RefFox face, ears, glasses and posture.",
+      "domain_prop": "Stream gauge + catchment boundaries.",
+      "asset_status": "noncanonical exploratory drawings; need master-image adaptation",
+      "png_exports": [
+        "png/nature-hydrology-reviewer-skill/32.png",
+        "png/nature-hydrology-reviewer-skill/64.png",
+        "png/nature-hydrology-reviewer-skill/128.png",
+        "png/nature-hydrology-reviewer-skill/256.png"
+      ]
+    },
+    {
+      "repo": "nature-materials-science-reviewer-skill",
+      "name": "RefFox · Materials Science",
+      "category": "family",
+      "accent": "#8A80B8",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "One character. Many domains.",
+      "design_goal": "Check mechanism, characterization, benchmarks and stability.",
+      "guardrails": "Crystal motif must not imply unmeasured atomic structure. Do not release concept art before aligning it with canonical RefFox.",
+      "source_of_truth": "https://github.com/GeoGeekLab/nature-reviewer-skills/blob/main/assets/reffox/reffox-main.png",
+      "assets": [
+        "family/ref-fox/nature-materials-science-reviewer-skill/concept.svg",
+        "family/ref-fox/nature-materials-science-reviewer-skill/concept-avatar.svg",
+        "family/ref-fox/nature-materials-science-reviewer-skill/concept-readme-hero.svg"
+      ],
+      "anchors": "Invariant RefFox face, ears, glasses and posture.",
+      "domain_prop": "Crystal lattice + measured response.",
+      "asset_status": "noncanonical exploratory drawings; need master-image adaptation",
+      "png_exports": [
+        "png/nature-materials-science-reviewer-skill/32.png",
+        "png/nature-materials-science-reviewer-skill/64.png",
+        "png/nature-materials-science-reviewer-skill/128.png",
+        "png/nature-materials-science-reviewer-skill/256.png"
+      ]
+    },
+    {
+      "repo": "nature-remote-sensing-reviewer-skill",
+      "name": "RefFox · Remote Sensing",
+      "category": "family",
+      "accent": "#4B90B0",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "One character. Many domains.",
+      "design_goal": "Inspect sensor lineage, registration error and independent validation.",
+      "guardrails": "A claim may change when the pixel grid shifts. Do not release concept art before aligning it with canonical RefFox.",
+      "source_of_truth": "https://github.com/GeoGeekLab/nature-reviewer-skills/blob/main/assets/reffox/reffox-main.png",
+      "assets": [
+        "family/ref-fox/nature-remote-sensing-reviewer-skill/concept.svg",
+        "family/ref-fox/nature-remote-sensing-reviewer-skill/concept-avatar.svg",
+        "family/ref-fox/nature-remote-sensing-reviewer-skill/concept-readme-hero.svg"
+      ],
+      "anchors": "Invariant RefFox face, ears, glasses and posture.",
+      "domain_prop": "Satellite scene + co-registration grid.",
+      "asset_status": "noncanonical exploratory drawings; need master-image adaptation",
+      "png_exports": [
+        "png/nature-remote-sensing-reviewer-skill/32.png",
+        "png/nature-remote-sensing-reviewer-skill/64.png",
+        "png/nature-remote-sensing-reviewer-skill/128.png",
+        "png/nature-remote-sensing-reviewer-skill/256.png"
+      ]
+    },
+    {
+      "repo": "nature-reviewer-skills",
+      "name": "RefFox",
+      "category": "existing-mascot",
+      "accent": "#A64624",
+      "status": "retain existing / no modifications",
+      "brand": "GeoGeekLab",
+      "tagline": "Curious, incisive, supportive peer reviewer.",
+      "design_goal": "Curious, incisive, supportive peer reviewer.",
+      "guardrails": "Keep the original RefFox master; family variants require exact face and ear continuity.",
+      "source_of_truth": "https://github.com/GeoGeekLab/nature-reviewer-skills/blob/main/assets/reffox/reffox-main.png",
+      "assets": [],
+      "anchors": "Fox ears, glasses, scholarly review posture.",
+      "states": "Question → inspect evidence → prioritize concerns → revise.",
+      "existing_source": "assets/reffox/reffox-main.png",
+      "existing_compact_source": "assets/reffox/reffox-avatar.webp"
+    },
+    {
+      "repo": "orbital-commons",
+      "name": "Orbital Commons",
+      "category": "logo",
+      "accent": "#568EAA",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "Position is relative.",
+      "design_goal": "An Earth orbit, a tracked body and an observation viewpoint.",
+      "guardrails": "Do not depict physically impossible intersecting orbital tracks as literal trajectories.",
+      "source_of_truth": "logos/orbital-commons/primary.svg",
+      "assets": [
+        "logos/orbital-commons/primary.svg",
+        "logos/orbital-commons/monochrome.svg",
+        "logos/orbital-commons/inverse.svg",
+        "logos/orbital-commons/app-icon.svg",
+        "logos/orbital-commons/readme-hero.svg",
+        "logos/orbital-commons/social-preview.svg"
+      ],
+      "descriptor": "Orbital geometry · Observer relation.",
+      "anchors": "Orbit, inclination, observer, epoch.",
+      "type": "geometric mark",
+      "asset_status": "editable geometric SVG prototypes; approval needed",
+      "png_exports": [
+        "png/orbital-commons/32.png",
+        "png/orbital-commons/64.png",
+        "png/orbital-commons/128.png",
+        "png/orbital-commons/256.png"
+      ]
+    },
+    {
+      "repo": "personal-learning-map",
+      "name": "Red Panda",
+      "category": "existing-mascot",
+      "accent": "#A64624",
+      "status": "retain existing / no modifications",
+      "brand": "GeoGeekLab",
+      "tagline": "Orient, learn and improve through a long-horizon learning map.",
+      "design_goal": "Orient, learn and improve through a long-horizon learning map.",
+      "guardrails": "Preserve existing red panda series and its four action variants.",
+      "source_of_truth": "https://github.com/GeoGeekLab/personal-learning-map/blob/main/assets/mascot/mascot-primary.webp",
+      "assets": [],
+      "anchors": "Small red panda, travel/learning cues.",
+      "states": "Read → reflect → navigate → move.",
+      "existing_source": "assets/mascot/mascot-primary.webp",
+      "existing_compact_source": "assets/mascot/mascot-reading.webp"
+    },
+    {
+      "repo": "scientific-storytelling-skill",
+      "name": "Story Swallow",
+      "category": "new-mascot",
+      "accent": "#3B7F9A",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "Connect scientific claims, evidence and narrative logic.",
+      "design_goal": "Connect scientific claims, evidence and narrative logic.",
+      "guardrails": "Keep the forked tail and deep blue body; evidence trail is secondary; do not turn into a generic Twitter-style bird.",
+      "source_of_truth": "new-mascots/scientific-storytelling-skill/concept.svg",
+      "assets": [
+        "new-mascots/scientific-storytelling-skill/concept.svg",
+        "new-mascots/scientific-storytelling-skill/concept-avatar.svg",
+        "new-mascots/scientific-storytelling-skill/concept-readme-hero.svg"
+      ],
+      "anchors": "A swift bird guiding a continuous story thread.",
+      "states": "Rest → explain → connect → present.",
+      "species": "Swallow",
+      "asset_status": "working prototypes; expressions and action poses remain to be drawn",
+      "png_exports": [
+        "png/scientific-storytelling-skill/32.png",
+        "png/scientific-storytelling-skill/64.png",
+        "png/scientific-storytelling-skill/128.png",
+        "png/scientific-storytelling-skill/256.png"
+      ]
+    },
+    {
+      "repo": "stac-scout",
+      "name": "Scout",
+      "category": "existing-mascot",
+      "accent": "#A64624",
+      "status": "retain existing / no modifications",
+      "brand": "GeoGeekLab",
+      "tagline": "Scout STAC catalogs before compute.",
+      "design_goal": "Scout STAC catalogs before compute.",
+      "guardrails": "Keep official hero artwork as canonical; never infer unverified species or wardrobe rules.",
+      "source_of_truth": "https://github.com/GeoGeekLab/stac-scout/blob/main/docs/assets/mascot/scout-hero.webp",
+      "assets": [],
+      "anchors": "Explorer silhouette and search prop; confirm exact species from source artwork.",
+      "states": "Locate → inspect → compare → replay.",
+      "existing_source": "docs/assets/mascot/scout-hero.webp",
+      "existing_compact_source": "docs/assets/mascot/scout-terminal.webp"
+    },
+    {
+      "repo": "water-as-spectrum",
+      "name": "Water as Spectrum",
+      "category": "logo",
+      "accent": "#367FAD",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "Read water in wavelengths.",
+      "design_goal": "Spectral response lines under varying water optical properties.",
+      "guardrails": "Do not represent a water spectrum as pure decoration with an unlabeled rainbow.",
+      "source_of_truth": "logos/water-as-spectrum/primary.svg",
+      "assets": [
+        "logos/water-as-spectrum/primary.svg",
+        "logos/water-as-spectrum/monochrome.svg",
+        "logos/water-as-spectrum/inverse.svg",
+        "logos/water-as-spectrum/app-icon.svg",
+        "logos/water-as-spectrum/readme-hero.svg",
+        "logos/water-as-spectrum/social-preview.svg"
+      ],
+      "descriptor": "Optics · Spectra · Reflectance.",
+      "anchors": "Wavelength, reflectance, observation geometry.",
+      "type": "geometric mark",
+      "asset_status": "editable geometric SVG prototypes; approval needed",
+      "png_exports": [
+        "png/water-as-spectrum/32.png",
+        "png/water-as-spectrum/64.png",
+        "png/water-as-spectrum/128.png",
+        "png/water-as-spectrum/256.png"
+      ]
+    },
+    {
+      "repo": "world-as-relation",
+      "name": "World as Relation",
+      "category": "logo",
+      "accent": "#527FB0",
+      "status": "concept / review required",
+      "brand": "GeoGeekLab",
+      "tagline": "A map is a choice.",
+      "design_goal": "A graticule becomes deformed in a projection.",
+      "guardrails": "Do not imply any projection preserves area, angle and distance simultaneously.",
+      "source_of_truth": "logos/world-as-relation/primary.svg",
+      "assets": [
+        "logos/world-as-relation/primary.svg",
+        "logos/world-as-relation/monochrome.svg",
+        "logos/world-as-relation/inverse.svg",
+        "logos/world-as-relation/app-icon.svg",
+        "logos/world-as-relation/readme-hero.svg",
+        "logos/world-as-relation/social-preview.svg"
+      ],
+      "descriptor": "Projection · Distortion · Scale.",
+      "anchors": "Graticule, ellipses, map transformation.",
+      "type": "geometric mark",
+      "asset_status": "editable geometric SVG prototypes; approval needed",
+      "png_exports": [
+        "png/world-as-relation/32.png",
+        "png/world-as-relation/64.png",
+        "png/world-as-relation/128.png",
+        "png/world-as-relation/256.png"
+      ]
+    }
+  ],
+  "counts": {
+    "logo": 8,
+    "family": 7,
+    "new-mascot": 3,
+    "existing-mascot": 6,
+    "no-new-design": 2
+  }
+}
