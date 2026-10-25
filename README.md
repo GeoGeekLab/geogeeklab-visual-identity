@@ -3,9 +3,9 @@
 **One identity. Many forms.**  
 *Same curiosity. Different forms.*
 
-[![The GeoGeekLab family: 9 tool and skill mascots, 7 RefFox reviewer variants, and 8 scientific instrument identities](assets/family/GeoGeekLab-family-portrait-v1.webp)](assets/family/GeoGeekLab-family-portrait-v1.webp)
+[![GeoGeekLab mascots together for one illustrated outdoor research group photo, surrounded by scientific instrument motifs](assets/family/GeoGeekLab-family-group-v2.webp)](assets/family/GeoGeekLab-family-group-v2.webp)
 
-<sub>Meet the whole family — 24 project identities. [View the full-resolution portrait](assets/family/GeoGeekLab-family-portrait-v1.webp).</sub>
+<sub>**One family, one scene.** The mascots share a research camp, with scientific instruments represented as symbols. Explore all **24 project identities** below. [View the full-size group photo](assets/family/GeoGeekLab-family-group-v2.webp).</sub>
 
 ## Meet the family
 
@@ -33,7 +33,7 @@
 |:--|:--|
 | [Current README artwork](readme-artwork/v3/) | 20 production-facing mascot and instrument images |
 | [Scientific instrument artwork](logos/scientific-instruments/readme-artwork-v2/) | Four text-free SVG scientific illustrations |
-| [Family portrait](assets/family/) | Complete 24-identity visual overview and composition notes |
+| [Family group photo](assets/family/README.md) | Shared-scene illustration, art direction, and archived overview |
 | [Design guidelines (中文)](GUIDE.zh-CN.md) | Mascot rules, typography, colors, and QA |
 | [Identity sheets](identity-sheets/) | Project-specific design guidance |
 | [README integration](README-INTEGRATION.md) | Central-to-project asset deployment |
