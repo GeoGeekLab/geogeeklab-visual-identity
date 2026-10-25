@@ -1,0 +1,13 @@
+{
+  "name": "Engineering",
+  "accent": "#BD7E39",
+  "dark": "#604527",
+  "pale": "#F3E5C9",
+  "core": {
+    "orange": "#E9854A",
+    "cream": "#FFF6E7",
+    "ink": "#173638"
+  },
+  "task": "Performance · robustness · deployment",
+  "tagline": "Demand validation beyond the prototype."
+}

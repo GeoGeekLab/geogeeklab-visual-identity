@@ -1,0 +1,13 @@
+{
+  "name": "Materials Science",
+  "accent": "#8465A5",
+  "dark": "#4B365F",
+  "pale": "#E8DEF2",
+  "core": {
+    "orange": "#E9854A",
+    "cream": "#FFF6E7",
+    "ink": "#173638"
+  },
+  "task": "Structure · properties · mechanism",
+  "tagline": "Separate measured properties from proposed mechanisms."
+}

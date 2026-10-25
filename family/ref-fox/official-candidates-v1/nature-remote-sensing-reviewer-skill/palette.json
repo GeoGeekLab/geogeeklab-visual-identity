@@ -1,0 +1,13 @@
+{
+  "name": "Remote Sensing",
+  "accent": "#2B78A3",
+  "dark": "#163D58",
+  "pale": "#CBE8ED",
+  "core": {
+    "orange": "#E9854A",
+    "cream": "#FFF6E7",
+    "ink": "#173638"
+  },
+  "task": "Radiometry · harmonization · spatial support",
+  "tagline": "Verify pixels, sensors, and claims."
+}

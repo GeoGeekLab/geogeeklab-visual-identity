@@ -1,0 +1,13 @@
+{
+  "name": "Hydrology",
+  "accent": "#277EA9",
+  "dark": "#19506A",
+  "pale": "#D3EDF4",
+  "core": {
+    "orange": "#E9854A",
+    "cream": "#FFF6E7",
+    "ink": "#173638"
+  },
+  "task": "Catchments · gauges · water balance",
+  "tagline": "Follow the water. Challenge the inference."
+}

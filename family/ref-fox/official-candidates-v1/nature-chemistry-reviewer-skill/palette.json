@@ -1,0 +1,13 @@
+{
+  "name": "Chemistry",
+  "accent": "#2D897F",
+  "dark": "#1A504C",
+  "pale": "#D9EEE7",
+  "core": {
+    "orange": "#E9854A",
+    "cream": "#FFF6E7",
+    "ink": "#173638"
+  },
+  "task": "Controls · quantification · reaction scope",
+  "tagline": "Check calibration before claiming chemistry."
+}

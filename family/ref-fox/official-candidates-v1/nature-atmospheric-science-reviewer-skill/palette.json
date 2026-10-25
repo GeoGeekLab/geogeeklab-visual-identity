@@ -1,0 +1,13 @@
+{
+  "name": "Atmospheric Science",
+  "accent": "#598DB3",
+  "dark": "#33566F",
+  "pale": "#DCEBF3",
+  "core": {
+    "orange": "#E9854A",
+    "cream": "#FFF6E7",
+    "ink": "#173638"
+  },
+  "task": "Profiles · dynamics · uncertainty",
+  "tagline": "Interrogate the atmosphere, not just the model."
+}

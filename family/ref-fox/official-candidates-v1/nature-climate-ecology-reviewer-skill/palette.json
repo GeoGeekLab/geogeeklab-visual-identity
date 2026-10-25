@@ -1,0 +1,13 @@
+{
+  "name": "Climate & Ecology",
+  "accent": "#4F8560",
+  "dark": "#284A37",
+  "pale": "#DCECCF",
+  "core": {
+    "orange": "#E9854A",
+    "cream": "#FFF6E7",
+    "ink": "#173638"
+  },
+  "task": "Causality · scale · biodiversity",
+  "tagline": "Test attribution, scale, and ecological evidence."
+}
