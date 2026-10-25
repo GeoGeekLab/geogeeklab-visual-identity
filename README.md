@@ -1,79 +1,60 @@
-# GeoGeekLab Visual Identity System
+# GeoGeekLab · Visual Identity System
 
-**One identity. Many forms.**
+**One identity. Many forms.**  
+*Same curiosity. Different forms.*
 
-A shared identity architecture for GeoGeekLab’s scientific instruments, developer tools, reviewer skills, and educational projects.
+[![The GeoGeekLab family: 9 tool and skill mascots, 7 RefFox reviewer variants, and 8 scientific instrument identities](assets/family/GeoGeekLab-family-portrait-v1.webp)](assets/family/GeoGeekLab-family-portrait-v1.webp)
 
-> **Status: V0.2 — concepts for review, not approved artwork.** No target product repository has been changed by this central deployment.
+<sub>Meet the whole family — 24 project identities. [View the full-resolution portrait](assets/family/GeoGeekLab-family-portrait-v1.webp).</sub>
 
-[**Visual Gallery →**](GALLERY.md) · [中文规范 →](GUIDE.zh-CN.md) · [Project Registry →](manifests/registry.json) · [Asset Validation →](VALIDATION.md) · [Art & Provenance →](ARTWORK-NOTICE.md)
+## Meet the family
 
-## The visual principles
+### 01 · Tools & Skills — 9 personalities
 
-**Tools have personalities. Instruments have precision.**
+[GeoMole](https://github.com/GeoGeekLab/geodebug) · [Geo Gecko](https://github.com/GeoGeekLab/awesome-tech-feeds) · [Red Panda](https://github.com/GeoGeekLab/personal-learning-map) · [Scout](https://github.com/GeoGeekLab/stac-scout) · [Evi](https://github.com/GeoGeekLab/engineering-quality) · [Builder Beaver](https://github.com/GeoGeekLab/modern-software-codex-skills) · [Story Swallow](https://github.com/GeoGeekLab/scientific-storytelling-skill) · [Ink Crane](https://github.com/GeoGeekLab/academic-terminology-zh) · [RefFox](https://github.com/GeoGeekLab/nature-reviewer-skills)
 
-- **Mascots** give tools and agent skills a recognizable, approachable character.
-- **RefFox family** shares one character across seven scientific reviewing domains.
-- **Scientific logos** use meaningful geometry and real instrument screenshots; no forced animal identity.
-- **Personal and website repositories** keep their existing design; no new mascot.
+**Tools have personalities.** Each mascot represents how its project builds, discovers, teaches, evaluates, or communicates.
 
-## Coverage
+### 02 · RefFox Family — 7 disciplines
 
-| Identity class | Projects | Status |
-|---|---:|---|
-| Existing mascots | 6 | Preserve canonical source artwork |
-| RefFox reviewer variants | 7 | Structural concept SVGs; original RefFox must be respected |
-| New mascot proposals | 3 | Concept SVGs; characters not yet approved |
-| Scientific instrument logos | 8 | Six editable SVG applications per instrument; review required |
-| No new design | 2 | Existing identity retained |
-| **Total** | **26** | **V0.2 concept release** |
+[Remote Sensing](https://github.com/GeoGeekLab/nature-remote-sensing-reviewer-skill) · [Climate & Ecology](https://github.com/GeoGeekLab/nature-climate-ecology-reviewer-skill) · [Hydrology](https://github.com/GeoGeekLab/nature-hydrology-reviewer-skill) · [Atmospheric Science](https://github.com/GeoGeekLab/nature-atmospheric-science-reviewer-skill) · [Materials Science](https://github.com/GeoGeekLab/nature-materials-science-reviewer-skill) · [Engineering](https://github.com/GeoGeekLab/nature-engineering-reviewer-skill) · [Chemistry](https://github.com/GeoGeekLab/nature-chemistry-reviewer-skill)
 
-## See the work
+**One reviewer. Seven perspectives.** The shared RefFox character adapts to different scientific evidence and methods.
 
-| Earth in Change | Orbital Commons | Image to Trace | Water as Spectrum |
-|---|---|---|---|
-| <img src="logos/earth-in-change/primary.svg" width="120" alt="Earth in Change concept"> | <img src="logos/orbital-commons/primary.svg" width="120" alt="Orbital Commons concept"> | <img src="logos/image-to-trace/primary.svg" width="120" alt="Image to Trace concept"> | <img src="logos/water-as-spectrum/primary.svg" width="120" alt="Water as Spectrum concept"> |
+### 03 · Scientific Instruments — 8 symbols
 
-[Browse all 18 design proposals and 6 canonical mascot links →](GALLERY.md)
+[Earth in Change](https://github.com/GeoGeekLab/earth-in-change) · [Orbital Commons](https://github.com/GeoGeekLab/orbital-commons) · [Earth Pulse](https://github.com/GeoGeekLab/earth-pulse) · [Geographic Flow Lab](https://github.com/GeoGeekLab/geographic-flow-lab) · [Image to Trace](https://github.com/GeoGeekLab/image-to-trace) · [World as Relation](https://github.com/GeoGeekLab/world-as-relation) · [Water as Spectrum](https://github.com/GeoGeekLab/water-as-spectrum) · [Scientific Plotting](https://github.com/GeoGeekLab/ipcc-wg1-scientific-plotting-skill)
 
-## Source of truth and visual tokens
+**Instruments have precision.** Geometry and scientific processes lead; animals do not appear in these identities.
 
-The parent brand tokens are based on the existing [GeoGeek website](https://github.com/GeoGeekLab/GeoGeekLab.github.io/blob/main/site/styles.css):
+## Explore the design system
 
-| Token | Value |
-|---|---|
-| Paper | `#F6F4EE` |
-| Ink | `#152019` |
-| Soft | `#435048` |
-| Signal | `#A64624` |
-| Atlas dark | `#17211B` |
-| Interface | Instrument Sans |
-| Editorial | Newsreader |
-| Data / code | IBM Plex Mono |
+| Resource | Contents |
+|:--|:--|
+| [Current README artwork](readme-artwork/v3/) | 20 production-facing mascot and instrument images |
+| [Scientific instrument artwork](logos/scientific-instruments/readme-artwork-v2/) | Four text-free SVG scientific illustrations |
+| [Family portrait](assets/family/) | Complete 24-identity visual overview and composition notes |
+| [Design guidelines (中文)](GUIDE.zh-CN.md) | Mascot rules, typography, colors, and QA |
+| [Identity sheets](identity-sheets/) | Project-specific design guidance |
+| [README integration](README-INTEGRATION.md) | Central-to-project asset deployment |
+| [Concept archive](GALLERY.md) | Early V0.2 explorations, not necessarily current artwork |
 
-**Project-specific palettes remain independent.** Do not recolor an existing mascot to force corporate uniformity.
+## Principles
 
-## Repository structure
+- **Recognizable, not repetitive.** Give each tool a distinct character without forcing the same mascot everywhere.
+- **One RefFox, many disciplines.** Vary the scientific task, not the character identity.
+- **Scientific meaning first.** Instruments use clean visual metaphors, never invented measurement plots.
+- **Text-free project artwork.** Keep explanatory copy in accessible README text, not embedded in each illustration.
+- **Shared structure, independent palettes.** Use consistent delivery standards without stripping projects of their character.
 
-```text
-GALLERY.md                   GitHub-native visual overview
-GUIDE.zh-CN.md               Chinese design and approval manual
-ARTWORK-NOTICE.md            Asset provenance and release guardrails
-identity-sheets/             26 project-specific rules
-logos/                       8 × 6 editable scientific instrument SVGs
-family/ref-fox/              7 × 3 unapproved reviewer-concept SVGs
-new-mascots/                 3 × 3 unapproved character-concept SVGs
-manifests/registry.json      Machine-readable catalog
-index.html                   Offline gallery (download files to open locally)
-scripts/validate_vis.py      Structural validation
-```
+The parent palette follows the existing [GeoGeekLab website](https://github.com/GeoGeekLab/GeoGeekLab.github.io): paper `#F6F4EE`, ink `#152019`, and signal `#A64624`.
 
-The local V0.2 package also contains raster previews and AI moodboards. **This GitHub deployment publishes text and editable SVG sources; raster moodboards are not canonical artwork.**
+## Status & provenance
 
-## Review → approval → production
+**Current: V3 README visual identities.** Earlier V0.2 concept artwork remains in the repository as an archive. The 24 visual identities appear across project README pages; the GeoGeekLab personal profile and the website retain their existing presentation.
 
-`research → identity anchors → concept → revision → science and size QA → owner approval → project integration`
+The RefFox scientific-domain images derived from a multi-panel illustration and still deserve independent high-resolution refinement. Scientific symbols are illustrative, not observed data. See [Art & Provenance](ARTWORK-NOTICE.md) and [Asset Validation](VALIDATION.md).
 
-Publication to this *central design repository* does not approve the assets for use as official product logos. Do not replace an existing mascot or ship a RefFox concept as a production character without reconciling its original master.
+---
 
 *Geo to see. Geek to build.*
