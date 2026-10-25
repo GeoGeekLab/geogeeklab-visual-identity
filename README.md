@@ -1,60 +1,99 @@
+<div align="center">
+
 # GeoGeekLab · Visual Identity System
 
-**One identity. Many forms.**  
-*Same curiosity. Different forms.*
+**One identity. Many forms. One shared world.**
 
-[![GeoGeekLab mascots together for one illustrated outdoor research group photo, surrounded by scientific instrument motifs](assets/family/GeoGeekLab-family-group-v2.webp)](assets/family/GeoGeekLab-family-group-v2.webp)
+<a href="assets/family/GeoGeekLab-family-group-v2.webp">
+  <img src="assets/family/GeoGeekLab-family-group-v2.webp" alt="A collective portrait of the GeoGeekLab mascot family at an outdoor research camp, surrounded by instruments and scientific symbols" width="100%">
+</a>
 
-<sub>**One family, one scene.** The mascots share a research camp, with scientific instruments represented as symbols. Explore all **24 project identities** below. [View the full-size group photo](assets/family/GeoGeekLab-family-group-v2.webp).</sub>
+*Tools have personalities. Instruments have precision.*
 
-## Meet the family
+[Explore the family](#meet-the-family) · [Artwork library](#artwork-library) · [Design principles](#design-principles) · [中文设计规范](GUIDE.zh-CN.md)
 
-### 01 · Tools & Skills — 9 personalities
-
-[GeoMole](https://github.com/GeoGeekLab/geodebug) · [Geo Gecko](https://github.com/GeoGeekLab/awesome-tech-feeds) · [Red Panda](https://github.com/GeoGeekLab/personal-learning-map) · [Scout](https://github.com/GeoGeekLab/stac-scout) · [Evi](https://github.com/GeoGeekLab/engineering-quality) · [Builder Beaver](https://github.com/GeoGeekLab/modern-software-codex-skills) · [Story Swallow](https://github.com/GeoGeekLab/scientific-storytelling-skill) · [Ink Crane](https://github.com/GeoGeekLab/academic-terminology-zh) · [RefFox](https://github.com/GeoGeekLab/nature-reviewer-skills)
-
-**Tools have personalities.** Each mascot represents how its project builds, discovers, teaches, evaluates, or communicates.
-
-### 02 · RefFox Family — 7 disciplines
-
-[Remote Sensing](https://github.com/GeoGeekLab/nature-remote-sensing-reviewer-skill) · [Climate & Ecology](https://github.com/GeoGeekLab/nature-climate-ecology-reviewer-skill) · [Hydrology](https://github.com/GeoGeekLab/nature-hydrology-reviewer-skill) · [Atmospheric Science](https://github.com/GeoGeekLab/nature-atmospheric-science-reviewer-skill) · [Materials Science](https://github.com/GeoGeekLab/nature-materials-science-reviewer-skill) · [Engineering](https://github.com/GeoGeekLab/nature-engineering-reviewer-skill) · [Chemistry](https://github.com/GeoGeekLab/nature-chemistry-reviewer-skill)
-
-**One reviewer. Seven perspectives.** The shared RefFox character adapts to different scientific evidence and methods.
-
-### 03 · Scientific Instruments — 8 symbols
-
-[Earth in Change](https://github.com/GeoGeekLab/earth-in-change) · [Orbital Commons](https://github.com/GeoGeekLab/orbital-commons) · [Earth Pulse](https://github.com/GeoGeekLab/earth-pulse) · [Geographic Flow Lab](https://github.com/GeoGeekLab/geographic-flow-lab) · [Image to Trace](https://github.com/GeoGeekLab/image-to-trace) · [World as Relation](https://github.com/GeoGeekLab/world-as-relation) · [Water as Spectrum](https://github.com/GeoGeekLab/water-as-spectrum) · [Scientific Plotting](https://github.com/GeoGeekLab/ipcc-wg1-scientific-plotting-skill)
-
-**Instruments have precision.** Geometry and scientific processes lead; animals do not appear in these identities.
-
-## Explore the design system
-
-| Resource | Contents |
-|:--|:--|
-| [Current README artwork](readme-artwork/v3/) | 20 production-facing mascot and instrument images |
-| [Scientific instrument artwork](logos/scientific-instruments/readme-artwork-v2/) | Four text-free SVG scientific illustrations |
-| [Family group photo](assets/family/README.md) | Shared-scene illustration, art direction, and archived overview |
-| [Design guidelines (中文)](GUIDE.zh-CN.md) | Mascot rules, typography, colors, and QA |
-| [Identity sheets](identity-sheets/) | Project-specific design guidance |
-| [README integration](README-INTEGRATION.md) | Central-to-project asset deployment |
-| [Concept archive](GALLERY.md) | Early V0.2 explorations, not necessarily current artwork |
-
-## Principles
-
-- **Recognizable, not repetitive.** Give each tool a distinct character without forcing the same mascot everywhere.
-- **One RefFox, many disciplines.** Vary the scientific task, not the character identity.
-- **Scientific meaning first.** Instruments use clean visual metaphors, never invented measurement plots.
-- **Text-free project artwork.** Keep explanatory copy in accessible README text, not embedded in each illustration.
-- **Shared structure, independent palettes.** Use consistent delivery standards without stripping projects of their character.
-
-The parent palette follows the existing [GeoGeekLab website](https://github.com/GeoGeekLab/GeoGeekLab.github.io): paper `#F6F4EE`, ink `#152019`, and signal `#A64624`.
-
-## Status & provenance
-
-**Current: V3 README visual identities.** Earlier V0.2 concept artwork remains in the repository as an archive. The 24 visual identities appear across project README pages; the GeoGeekLab personal profile and the website retain their existing presentation.
-
-The RefFox scientific-domain images derived from a multi-panel illustration and still deserve independent high-resolution refinement. Scientific symbols are illustrative, not observed data. See [Art & Provenance](ARTWORK-NOTICE.md) and [Asset Validation](VALIDATION.md).
+</div>
 
 ---
 
+## Meet the family
+
+Different projects, different personalities — connected by the same curiosity.
+
+### 🛠️ Tool & Skill Mascots · 9 projects
+
+| | | |
+|:--|:--|:--|
+| [**GeoMole**](https://github.com/GeoGeekLab/geodebug) · GeoDebug | [**Geo Gecko**](https://github.com/GeoGeekLab/awesome-tech-feeds) · Tech Feeds | [**Red Panda**](https://github.com/GeoGeekLab/personal-learning-map) · Learning Map |
+| [**Scout**](https://github.com/GeoGeekLab/stac-scout) · STAC Scout | [**Evi**](https://github.com/GeoGeekLab/engineering-quality) · Engineering Quality | [**Builder Beaver**](https://github.com/GeoGeekLab/modern-software-codex-skills) · Software Skills |
+| [**Story Swallow**](https://github.com/GeoGeekLab/scientific-storytelling-skill) · Storytelling | [**Ink Crane**](https://github.com/GeoGeekLab/academic-terminology-zh) · Terminology | [**RefFox**](https://github.com/GeoGeekLab/nature-reviewer-skills) · Reviewer Skills |
+
+### 🦊 RefFox Family · 7 disciplines
+
+One fox, seven scientific perspectives. The character stays recognizable; the evidence and tools change by domain.
+
+| | |
+|:--|:--|
+| [Remote Sensing](https://github.com/GeoGeekLab/nature-remote-sensing-reviewer-skill) | [Climate & Ecology](https://github.com/GeoGeekLab/nature-climate-ecology-reviewer-skill) |
+| [Hydrology](https://github.com/GeoGeekLab/nature-hydrology-reviewer-skill) | [Atmospheric Science](https://github.com/GeoGeekLab/nature-atmospheric-science-reviewer-skill) |
+| [Materials Science](https://github.com/GeoGeekLab/nature-materials-science-reviewer-skill) | [Engineering](https://github.com/GeoGeekLab/nature-engineering-reviewer-skill) |
+| [Chemistry](https://github.com/GeoGeekLab/nature-chemistry-reviewer-skill) | [Browse the RefFox assets](family/ref-fox/official-candidates-v1/GALLERY.md) |
+
+### 🌍 Scientific Instruments · 8 projects
+
+These projects use **geometric symbols, scientific visualizations and real instrument screenshots** — not animal mascots.
+
+| | |
+|:--|:--|
+| [Earth in Change](https://github.com/GeoGeekLab/earth-in-change) | [Orbital Commons](https://github.com/GeoGeekLab/orbital-commons) |
+| [Earth Pulse](https://github.com/GeoGeekLab/earth-pulse) | [Geographic Flow Lab](https://github.com/GeoGeekLab/geographic-flow-lab) |
+| [Image → Trace](https://github.com/GeoGeekLab/image-to-trace) | [World as Relation](https://github.com/GeoGeekLab/world-as-relation) |
+| [Water as Spectrum](https://github.com/GeoGeekLab/water-as-spectrum) | [IPCC WGI Scientific Plotting Skill](https://github.com/GeoGeekLab/ipcc-wg1-scientific-plotting-skill) |
+
+> The group portrait is a **shared fictional scene**, not a literal inventory of every individual project illustration. See the project artwork directories for the authoritative visual identities.
+
+## Artwork library
+
+| Collection | Purpose |
+|:--|:--|
+| [**Family group portrait**](assets/family/README.md) | Art direction, full image and earlier composition archive |
+| [**README artwork · V3**](readme-artwork/v3/README.md) | 20 text-free project visuals in optimized WebP |
+| [**Scientific instrument artwork · V2**](logos/scientific-instruments/readme-artwork-v2/README.md) | 4 text-free vector scientific visuals |
+| [**RefFox domain identity systems**](family/ref-fox/official-candidates-v1/GALLERY.md) | Discipline symbols, avatars, banners and guidelines |
+| [**Project identity sheets**](identity-sheets/) | Individual project identity rules |
+| [**README integration record**](README-INTEGRATION.md) | Exact deployments and protected-branch PRs |
+| [**Archive / earlier concepts**](GALLERY.md) | Historical sketches and SVG proposals |
+
+**Current deployment:** 24 project READMEs have adopted text-free artwork. The [GeoGeekLab profile](https://github.com/GeoGeekLab/GeoGeekLab) and [GeoGeekLab.github.io](https://github.com/GeoGeekLab/GeoGeekLab.github.io) retain their existing identities. Earlier concept assets remain in the archive; they are not the current README covers.
+
+## Design principles
+
+**One identity, many forms.** Share design quality, not identical characters.
+
+**Tools have personalities.** A mascot communicates an agent's role through its expression, actions and working environment.
+
+**Instruments have precision.** A scientific logo communicates the underlying phenomenon without pretending to be observational data.
+
+**Distinct, but related.** Keep consistent hierarchy, presentation quality and accessibility while allowing independent project palettes.
+
+**No text baked into project artwork.** Titles, links and explanations belong in the README, not in the image.
+
+## Brand foundations
+
+Based on the existing [GeoGeekLab website styles](https://github.com/GeoGeekLab/GeoGeekLab.github.io/blob/main/site/styles.css):
+
+| Paper | Ink | Signal | Interface type | Editorial type | Code / data type |
+|:--|:--|:--|:--|:--|:--|
+| \`#F6F4EE\` | \`#152019\` | \`#A64624\` | Instrument Sans | Newsreader | IBM Plex Mono |
+
+Project-specific palettes stay independent. Full guidelines: [中文设计规范](GUIDE.zh-CN.md) · [Asset validation](VALIDATION.md) · [Art & provenance](ARTWORK-NOTICE.md) · [Machine-readable registry](manifests/registry.json).
+
+---
+
+<div align="center">
+
 *Geo to see. Geek to build.*
+
+<sub>The family portrait is an artistic illustration, not an exact rendering of all 24 project assets. Scientific symbols are conceptual, not scientific data. GeoGeekLab is not affiliated with or endorsed by Nature Portfolio or IPCC.</sub>
+
+</div>
