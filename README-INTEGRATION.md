@@ -1,79 +1,62 @@
-# README Visual Identity Rollout
+# GeoGeekLab README Artwork Integration
 
-## Batch 03 · Text-free scientific artwork deployment (2026-10-25)
+**Deployment status (2026-10-25): 24 of 24 intended project READMEs updated on `main`.** The 2 exempt repositories remain unchanged. Branch-protected updates passed CI and were merged via PR.
 
-The following product READMEs now display the exact original SVG files from [Scientific Instrument README Artwork V2](logos/scientific-instruments/readme-artwork-v2/README.md), replacing the previous typography-heavy visual banners. All technical README content and existing instrument imagery are retained.
+**Visual policy:** images do not contain headings, captions, promotional text, or mascots on scientific-instrument logos. All project READMEs keep technical text, badges, and original scientific instrument screenshots. Earlier branded banner files remain in the Git history and/or asset directories but no longer serve as the main README art.
 
-- [Image → Trace](https://github.com/GeoGeekLab/image-to-trace#readme)
-- [World as Relation](https://github.com/GeoGeekLab/world-as-relation#readme)
-- [Water as Spectrum](https://github.com/GeoGeekLab/water-as-spectrum#readme)
-- [IPCC WGI Scientific Plotting Skill](https://github.com/GeoGeekLab/ipcc-wg1-scientific-plotting-skill#readme)
+## Mascots · 10 repositories
 
-Release details: 4 vector illustrations, centered at 380px in README, no artwork-embedded text or animals, no implied IPCC endorsement. Their original source files were verified by Git blob SHA against the uploaded files.
+- [modern-software-codex-skills](https://github.com/GeoGeekLab/modern-software-codex-skills#readme) — [V3 image](readme-artwork/v3/modern-software-codex-skills/readme-artwork.webp)
+- [scientific-storytelling-skill](https://github.com/GeoGeekLab/scientific-storytelling-skill#readme) — [V3 image](readme-artwork/v3/scientific-storytelling-skill/readme-artwork.webp)
+- [academic-terminology-zh](https://github.com/GeoGeekLab/academic-terminology-zh#readme) — [V3 image](readme-artwork/v3/academic-terminology-zh/readme-artwork.webp)
+- [geodebug](https://github.com/GeoGeekLab/geodebug#readme) — [V3 image](readme-artwork/v3/geodebug/readme-artwork.webp)
+- [awesome-tech-feeds](https://github.com/GeoGeekLab/awesome-tech-feeds#readme) — [V3 image](readme-artwork/v3/awesome-tech-feeds/readme-artwork.webp)
+- [personal-learning-map](https://github.com/GeoGeekLab/personal-learning-map#readme) — [V3 image](readme-artwork/v3/personal-learning-map/readme-artwork.webp)
+- [stac-scout](https://github.com/GeoGeekLab/stac-scout#readme) — [V3 image](readme-artwork/v3/stac-scout/readme-artwork.webp)
+- [engineering-quality](https://github.com/GeoGeekLab/engineering-quality#readme) — [V3 image](readme-artwork/v3/engineering-quality/readme-artwork.webp)
+- [nature-reviewer-skills](https://github.com/GeoGeekLab/nature-reviewer-skills#readme) — [V3 image](readme-artwork/v3/nature-reviewer-skills/readme-artwork.webp)
+- [nature-remote-sensing-reviewer-skill](https://github.com/GeoGeekLab/nature-remote-sensing-reviewer-skill#readme) — [V3 image](readme-artwork/v3/nature-remote-sensing-reviewer-skill/readme-artwork.webp)
 
+## Additional RefFox domains · 6 repositories
 
-**Scope:** 26 original GeoGeekLab repositories (excluding this identity hub).
+- [nature-climate-ecology-reviewer-skill](https://github.com/GeoGeekLab/nature-climate-ecology-reviewer-skill#readme) — [V3 image](readme-artwork/v3/nature-climate-ecology-reviewer-skill/readme-artwork.webp)
+- [nature-hydrology-reviewer-skill](https://github.com/GeoGeekLab/nature-hydrology-reviewer-skill#readme) — [V3 image](readme-artwork/v3/nature-hydrology-reviewer-skill/readme-artwork.webp)
+- [nature-atmospheric-science-reviewer-skill](https://github.com/GeoGeekLab/nature-atmospheric-science-reviewer-skill#readme) — [V3 image](readme-artwork/v3/nature-atmospheric-science-reviewer-skill/readme-artwork.webp)
+- [nature-materials-science-reviewer-skill](https://github.com/GeoGeekLab/nature-materials-science-reviewer-skill#readme) — [V3 image](readme-artwork/v3/nature-materials-science-reviewer-skill/readme-artwork.webp)
+- [nature-engineering-reviewer-skill](https://github.com/GeoGeekLab/nature-engineering-reviewer-skill#readme) — [V3 image](readme-artwork/v3/nature-engineering-reviewer-skill/readme-artwork.webp)
+- [nature-chemistry-reviewer-skill](https://github.com/GeoGeekLab/nature-chemistry-reviewer-skill#readme) — [V3 image](readme-artwork/v3/nature-chemistry-reviewer-skill/readme-artwork.webp)
 
-**Deployment:** 21 README changes merged directly to `main`, 3 branch-protected changes in pull requests, and 2 intentionally untouched. The original product README descriptions, screenshots, badges and scientific attribution are preserved except that `modern-software-codex-skills` replaces its generic image.
+## Scientific instruments · 8 repositories
 
-The graphics are centrally hosted SVG files. For science instrument marks and newly introduced mascots, the underlying assets remain **design candidates**, not scientifically validated visualizations.
+- [earth-in-change](https://github.com/GeoGeekLab/earth-in-change#readme) — [V3 symbol](readme-artwork/v3/earth-in-change/readme-artwork.webp)
+- [orbital-commons](https://github.com/GeoGeekLab/orbital-commons#readme) — [V3 symbol](readme-artwork/v3/orbital-commons/readme-artwork.webp)
+- [earth-pulse](https://github.com/GeoGeekLab/earth-pulse#readme) — [V3 symbol](readme-artwork/v3/earth-pulse/readme-artwork.webp)
+- [geographic-flow-lab](https://github.com/GeoGeekLab/geographic-flow-lab#readme) — [V3 symbol](readme-artwork/v3/geographic-flow-lab/readme-artwork.webp)
+- [image-to-trace](https://github.com/GeoGeekLab/image-to-trace#readme) — [V2 symbol](logos/scientific-instruments/readme-artwork-v2/image-to-trace/readme-artwork.svg)
+- [world-as-relation](https://github.com/GeoGeekLab/world-as-relation#readme) — [V2 symbol](logos/scientific-instruments/readme-artwork-v2/world-as-relation/readme-artwork.svg)
+- [water-as-spectrum](https://github.com/GeoGeekLab/water-as-spectrum#readme) — [V2 symbol](logos/scientific-instruments/readme-artwork-v2/water-as-spectrum/readme-artwork.svg)
+- [ipcc-wg1-scientific-plotting-skill](https://github.com/GeoGeekLab/ipcc-wg1-scientific-plotting-skill#readme) — [V2 symbol](logos/scientific-instruments/readme-artwork-v2/ipcc-wg1-scientific-plotting-skill/readme-artwork.svg)
 
-## RefFox discipline banners (main)
+## Protected repositories · all merged
 
-- [nature-remote-sensing-reviewer-skill](https://github.com/GeoGeekLab/nature-remote-sensing-reviewer-skill#readme)
-- [nature-climate-ecology-reviewer-skill](https://github.com/GeoGeekLab/nature-climate-ecology-reviewer-skill#readme)
-- [nature-hydrology-reviewer-skill](https://github.com/GeoGeekLab/nature-hydrology-reviewer-skill#readme)
-- [nature-atmospheric-science-reviewer-skill](https://github.com/GeoGeekLab/nature-atmospheric-science-reviewer-skill#readme)
-- [nature-materials-science-reviewer-skill](https://github.com/GeoGeekLab/nature-materials-science-reviewer-skill#readme)
-- [nature-engineering-reviewer-skill](https://github.com/GeoGeekLab/nature-engineering-reviewer-skill#readme)
-- [nature-chemistry-reviewer-skill](https://github.com/GeoGeekLab/nature-chemistry-reviewer-skill#readme)
+- [Nature Reviewer Skills — PR #25](https://github.com/GeoGeekLab/nature-reviewer-skills/pull/25)
+- [STAC Scout — PR #29](https://github.com/GeoGeekLab/stac-scout/pull/29)
+- [Engineering Quality — PR #26](https://github.com/GeoGeekLab/engineering-quality/pull/26)
 
-## Scientific instruments (main)
+## Excluded repositories
 
-- [orbital-commons](https://github.com/GeoGeekLab/orbital-commons#readme)
-- [earth-in-change](https://github.com/GeoGeekLab/earth-in-change#readme)
-- [earth-pulse](https://github.com/GeoGeekLab/earth-pulse#readme)
-- [geographic-flow-lab](https://github.com/GeoGeekLab/geographic-flow-lab#readme)
-- [image-to-trace](https://github.com/GeoGeekLab/image-to-trace#readme)
-- [world-as-relation](https://github.com/GeoGeekLab/world-as-relation#readme)
-- [water-as-spectrum](https://github.com/GeoGeekLab/water-as-spectrum#readme)
-- [ipcc-wg1-scientific-plotting-skill](https://github.com/GeoGeekLab/ipcc-wg1-scientific-plotting-skill#readme)
+- [GeoGeekLab](https://github.com/GeoGeekLab/GeoGeekLab) — personal profile README remains text-first, no mascot.
+- [GeoGeekLab.github.io](https://github.com/GeoGeekLab/GeoGeekLab.github.io) — website maintains its own existing branding and was not modified.
 
-## Newly introduced mascots (main)
+## Asset galleries
 
-- [modern-software-codex-skills](https://github.com/GeoGeekLab/modern-software-codex-skills#readme)
-- [scientific-storytelling-skill](https://github.com/GeoGeekLab/scientific-storytelling-skill#readme)
-- [academic-terminology-zh](https://github.com/GeoGeekLab/academic-terminology-zh#readme)
+- [20 V3 text-free mascot and science artworks](readme-artwork/v3/README.md)
+- [4 V2 text-free scientific SVG artworks](logos/scientific-instruments/readme-artwork-v2/README.md)
 
-## Existing mascots (main; source art retained)
+## Quality and ownership
 
-- [geodebug](https://github.com/GeoGeekLab/geodebug#readme)
-- [awesome-tech-feeds](https://github.com/GeoGeekLab/awesome-tech-feeds#readme)
-- [personal-learning-map](https://github.com/GeoGeekLab/personal-learning-map#readme)
-
-## Branch-protected repositories (open pull requests)
-
-- [nature-reviewer-skills — PR #25](https://github.com/GeoGeekLab/nature-reviewer-skills/pull/25) · awaiting required checks and merge
-- [stac-scout — PR #29](https://github.com/GeoGeekLab/stac-scout/pull/29) · awaiting required checks and merge
-- [engineering-quality — PR #26](https://github.com/GeoGeekLab/engineering-quality/pull/26) · awaiting required checks and merge
-
-## Deliberately unchanged
-
-- [GeoGeekLab](https://github.com/GeoGeekLab/GeoGeekLab) — personal profile; no mascot
-- [GeoGeekLab.github.io](https://github.com/GeoGeekLab/GeoGeekLab.github.io) — existing website brand retained
-
-## Integration policy
-
-1. Preserve approved mascot artwork and original instrument screenshots.
-2. Add a centered, linked brand illustration only when no appropriate branded image exists.
-3. Reference centrally versioned visual assets from this repository.
-4. Do not suggest journal endorsement (including Nature Portfolio and IPCC).
-5. Before adopting SVG candidates as production designs, check 32px rendering, dark/light contrast, visual consistency, accessibility and scientific symbolism.
-6. Do not bypass branch protections; use CI-gated PRs for protected repositories.
-
-## Source
-
-- [RefFox candidates](family/ref-fox/official-candidates-v1/GALLERY.md)
-- [Scientific instrument candidates](logos/scientific-instruments/official-candidates-v1/GALLERY.md)
-- [Mascot artwork](new-mascots/)
-- [Project identity sheets](identity-sheets/)
+- New V3 assets are optimized 768 × 768 WebP; the last four science symbols remain editable SVG.
+- Asset paths have been checked in the central repository and READMEs on the correct branches.
+- Images are artistic identity symbols, not scientific data or externally audited plots.
+- The project is not affiliated with or endorsed by Nature Portfolio or IPCC.
+- Future central asset changes propagate to dependent READMEs because their URLs reference the `main` branch.
