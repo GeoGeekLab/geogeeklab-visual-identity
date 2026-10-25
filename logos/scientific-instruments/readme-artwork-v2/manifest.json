@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "date": "2026-10-25",
+  "status": "deployed-as-readme-artwork",
+  "projects": [
+    {
+      "repository": "GeoGeekLab/image-to-trace",
+      "file": "logos/scientific-instruments/readme-artwork-v2/image-to-trace/readme-artwork.svg",
+      "contains_visible_text": false,
+      "contains_animals": false
+    },
+    {
+      "repository": "GeoGeekLab/world-as-relation",
+      "file": "logos/scientific-instruments/readme-artwork-v2/world-as-relation/readme-artwork.svg",
+      "contains_visible_text": false,
+      "contains_animals": false
+    },
+    {
+      "repository": "GeoGeekLab/water-as-spectrum",
+      "file": "logos/scientific-instruments/readme-artwork-v2/water-as-spectrum/readme-artwork.svg",
+      "contains_visible_text": false,
+      "contains_animals": false
+    },
+    {
+      "repository": "GeoGeekLab/ipcc-wg1-scientific-plotting-skill",
+      "file": "logos/scientific-instruments/readme-artwork-v2/ipcc-wg1-scientific-plotting-skill/readme-artwork.svg",
+      "contains_visible_text": false,
+      "contains_animals": false
+    }
+  ]
+}
