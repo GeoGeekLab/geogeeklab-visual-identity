@@ -1,5 +1,17 @@
 # README Visual Identity Rollout
 
+## Batch 03 · Text-free scientific artwork deployment (2026-10-25)
+
+The following product READMEs now display the exact original SVG files from [Scientific Instrument README Artwork V2](logos/scientific-instruments/readme-artwork-v2/README.md), replacing the previous typography-heavy visual banners. All technical README content and existing instrument imagery are retained.
+
+- [Image → Trace](https://github.com/GeoGeekLab/image-to-trace#readme)
+- [World as Relation](https://github.com/GeoGeekLab/world-as-relation#readme)
+- [Water as Spectrum](https://github.com/GeoGeekLab/water-as-spectrum#readme)
+- [IPCC WGI Scientific Plotting Skill](https://github.com/GeoGeekLab/ipcc-wg1-scientific-plotting-skill#readme)
+
+Release details: 4 vector illustrations, centered at 380px in README, no artwork-embedded text or animals, no implied IPCC endorsement. Their original source files were verified by Git blob SHA against the uploaded files.
+
+
 **Scope:** 26 original GeoGeekLab repositories (excluding this identity hub).
 
 **Deployment:** 21 README changes merged directly to `main`, 3 branch-protected changes in pull requests, and 2 intentionally untouched. The original product README descriptions, screenshots, badges and scientific attribution are preserved except that `modern-software-codex-skills` replaces its generic image.
