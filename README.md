@@ -1,18 +1,18 @@
-<div align="center">
+<h1 align="center">GeoGeekLab · Visual Identity System</h1>
 
-# GeoGeekLab · Visual Identity System
+<p align="center"><strong>One identity. Many forms. One shared world.</strong></p>
 
-**One identity. Many forms. One shared world.**
+<p align="center">
+  <a href="assets/family/GeoGeekLab-family-group-v2.webp">
+    <img src="assets/family/GeoGeekLab-family-group-v2.webp" alt="A collective portrait of GeoGeekLab mascots at an outdoor research camp, with scientific instruments represented as symbols" width="100%">
+  </a>
+</p>
 
-<a href="assets/family/GeoGeekLab-family-group-v2.webp">
-  <img src="assets/family/GeoGeekLab-family-group-v2.webp" alt="A collective portrait of the GeoGeekLab mascot family at an outdoor research camp, surrounded by instruments and scientific symbols" width="100%">
-</a>
+<p align="center"><em>Tools have personalities. Instruments have precision.</em></p>
 
-*Tools have personalities. Instruments have precision.*
-
-[Explore the family](#meet-the-family) · [Artwork library](#artwork-library) · [Design principles](#design-principles) · [中文设计规范](GUIDE.zh-CN.md)
-
-</div>
+<p align="center">
+  <a href="#meet-the-family">Meet the family</a> · <a href="#artwork-library">Artwork library</a> · <a href="#design-principles">Design principles</a> · <a href="GUIDE.zh-CN.md">中文设计规范</a>
+</p>
 
 ---
 
@@ -84,16 +84,12 @@ Based on the existing [GeoGeekLab website styles](https://github.com/GeoGeekLab/
 
 | Paper | Ink | Signal | Interface type | Editorial type | Code / data type |
 |:--|:--|:--|:--|:--|:--|
-| \`#F6F4EE\` | \`#152019\` | \`#A64624\` | Instrument Sans | Newsreader | IBM Plex Mono |
+| `#F6F4EE` | `#152019` | `#A64624` | Instrument Sans | Newsreader | IBM Plex Mono |
 
 Project-specific palettes stay independent. Full guidelines: [中文设计规范](GUIDE.zh-CN.md) · [Asset validation](VALIDATION.md) · [Art & provenance](ARTWORK-NOTICE.md) · [Machine-readable registry](manifests/registry.json).
 
 ---
 
-<div align="center">
+<p align="center"><em>Geo to see. Geek to build.</em></p>
 
-*Geo to see. Geek to build.*
-
-<sub>The family portrait is an artistic illustration, not an exact rendering of all 24 project assets. Scientific symbols are conceptual, not scientific data. GeoGeekLab is not affiliated with or endorsed by Nature Portfolio or IPCC.</sub>
-
-</div>
+<p align="center"><sub>The family portrait is an artistic illustration, not an exact rendering of all 24 project assets. Scientific symbols are conceptual, not observational data. GeoGeekLab is not affiliated with or endorsed by Nature Portfolio or IPCC.</sub></p>
