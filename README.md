@@ -1,52 +1,79 @@
-# GeoGeekLab Visual Identity System — V0.2
+# GeoGeekLab Visual Identity System
 
-This package turns the approved visual direction into **individual project identity systems**. It follows the existing GeoGeekLab brand foundations rather than replacing them.
+**One identity. Many forms.**
 
-## Current coverage
+A shared identity architecture for GeoGeekLab’s scientific instruments, developer tools, reviewer skills, and educational projects.
 
-- **8 scientific instruments:** Six editable SVG applications each: primary, two-tone monochrome, inverse, square icon, README hero, social preview.
-- **7 RefFox specializations:** Three *concept-only* SVG applications each, plus a distinct discipline specification. They must be reconciled against the original RefFox asset before publication.
-- **3 new mascots:** Three editable concept-only SVG applications each, with character anchors, states and specific project use cases.
-- **6 existing mascot projects:** Individual identity sheets and canonical asset paths; original art not copied or replaced.
-- **2 core repositories:** No added logo or mascot.
+> **Status: V0.2 — concepts for review, not approved artwork.** No target product repository has been changed by this central deployment.
 
-## Important status
+[**Visual Gallery →**](GALLERY.md) · [中文规范 →](GUIDE.zh-CN.md) · [Project Registry →](manifests/registry.json) · [Asset Validation →](VALIDATION.md) · [Art & Provenance →](ARTWORK-NOTICE.md)
 
-These are **production-structure prototypes, not fully approved brand artwork**. All science logo icons need an expert visual-semantic pass. The seven illustrative RefFox drawings are placeholders and must not replace the official RefFox master. Mascot expressions and action scenes remain to be illustrated after character approval. The pre-existing art is stored in its current GitHub repositories and referenced by URL.
+## The visual principles
 
-## How to inspect
+**Tools have personalities. Instruments have precision.**
 
-Open `index.html`. Filter projects by identity type and open each project’s `identity-sheets/<repo>.md` for design constraints. SVG files contain editable vector instructions and are not flattened images.
+- **Mascots** give tools and agent skills a recognizable, approachable character.
+- **RefFox family** shares one character across seven scientific reviewing domains.
+- **Scientific logos** use meaningful geometry and real instrument screenshots; no forced animal identity.
+- **Personal and website repositories** keep their existing design; no new mascot.
 
-## Folder conventions
+## Coverage
+
+| Identity class | Projects | Status |
+|---|---:|---|
+| Existing mascots | 6 | Preserve canonical source artwork |
+| RefFox reviewer variants | 7 | Structural concept SVGs; original RefFox must be respected |
+| New mascot proposals | 3 | Concept SVGs; characters not yet approved |
+| Scientific instrument logos | 8 | Six editable SVG applications per instrument; review required |
+| No new design | 2 | Existing identity retained |
+| **Total** | **26** | **V0.2 concept release** |
+
+## See the work
+
+| Earth in Change | Orbital Commons | Image to Trace | Water as Spectrum |
+|---|---|---|---|
+| <img src="logos/earth-in-change/primary.svg" width="120" alt="Earth in Change concept"> | <img src="logos/orbital-commons/primary.svg" width="120" alt="Orbital Commons concept"> | <img src="logos/image-to-trace/primary.svg" width="120" alt="Image to Trace concept"> | <img src="logos/water-as-spectrum/primary.svg" width="120" alt="Water as Spectrum concept"> |
+
+[Browse all 18 design proposals and 6 canonical mascot links →](GALLERY.md)
+
+## Source of truth and visual tokens
+
+The parent brand tokens are based on the existing [GeoGeek website](https://github.com/GeoGeekLab/GeoGeekLab.github.io/blob/main/site/styles.css):
+
+| Token | Value |
+|---|---|
+| Paper | `#F6F4EE` |
+| Ink | `#152019` |
+| Soft | `#435048` |
+| Signal | `#A64624` |
+| Atlas dark | `#17211B` |
+| Interface | Instrument Sans |
+| Editorial | Newsreader |
+| Data / code | IBM Plex Mono |
+
+**Project-specific palettes remain independent.** Do not recolor an existing mascot to force corporate uniformity.
+
+## Repository structure
 
 ```text
-GeoGeekLab-VIS-v0.2/
-  index.html
-  identity-sheets/<26 project files>.md
-  logos/<8 projects>/{primary,monochrome,inverse,app-icon,readme-hero,social-preview}.svg
-  family/ref-fox/<7 projects>/{concept,concept-avatar,concept-readme-hero}.svg
-  new-mascots/<3 projects>/{concept,concept-avatar,concept-readme-hero}.svg
-  manifests/registry.json
-  previews/overview.png
-  references/ (AI moodboard, illustrative only)
+GALLERY.md                   GitHub-native visual overview
+GUIDE.zh-CN.md               Chinese design and approval manual
+ARTWORK-NOTICE.md            Asset provenance and release guardrails
+identity-sheets/             26 project-specific rules
+logos/                       8 × 6 editable scientific instrument SVGs
+family/ref-fox/              7 × 3 unapproved reviewer-concept SVGs
+new-mascots/                 3 × 3 unapproved character-concept SVGs
+manifests/registry.json      Machine-readable catalog
+index.html                   Offline gallery (download files to open locally)
+scripts/validate_vis.py      Structural validation
 ```
 
-## Visual standards
+The local V0.2 package also contains raster previews and AI moodboards. **This GitHub deployment publishes text and editable SVG sources; raster moodboards are not canonical artwork.**
 
-1. **Identity continuity:** Preserve each existing mascot’s silhouette, face, recognition anchors and palette.
-2. **Color:** Parent brand is paper `#F6F4EE`, ink `#152019`, signal `#A64624`. Project palettes may differ. Do not recolor Geo Gecko to match the parent.
-3. **Typography:** Interface = Instrument Sans; editorial = Newsreader; data = IBM Plex Mono. SVG mockups use system fallbacks; project builds should load licensed fonts independently.
-4. **Scale:** Test at 32, 64 and 128px. Remove secondary props when they become unreadable.
-5. **Scientific semantics:** No imagery may imply unverified results or official endorsements.
-6. **Deliverable:** Canonical SVG, 32/64/128 PNGs, social preview and light/dark handling; mascot pose sheets where applicable.
+## Review → approval → production
 
-## Approval stages
+`research → identity anchors → concept → revision → science and size QA → owner approval → project integration`
 
-`research → master concept → shape lock → variants → size/contrast QA → owner approval → publish`
+Publication to this *central design repository* does not approve the assets for use as official product logos. Do not replace an existing mascot or ship a RefFox concept as a production character without reconciling its original master.
 
-The package has not been pushed to GitHub. The page is an offline-first local reference. Existing source art is linked rather than embedded.
-
-## Repository status
-
-This repository tracks **draft visual identity concepts (V0.2)**. Existing mascots remain canonical in their original project repositories; scientific logo concepts and new character studies require review before rollout.
+*Geo to see. Geek to build.*

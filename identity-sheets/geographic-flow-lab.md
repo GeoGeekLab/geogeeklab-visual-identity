@@ -35,4 +35,4 @@ Check scientific referent; verify shape at 32/64/128px; approve contrast and mon
 
 ## Publication status
 
-This sheet is part of the VIS V0.2 concept delivery. **No GitHub repository files were changed.**
+This sheet is part of the VIS V0.2 concept delivery. **This sheet is published in the central VIS repository; the target product repository remains unchanged.**

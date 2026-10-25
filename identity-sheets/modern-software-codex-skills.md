@@ -32,4 +32,4 @@ Approve species, shape anchors and attitude; design 4 action poses only after ap
 
 ## Publication status
 
-This sheet is part of the VIS V0.2 concept delivery. **No GitHub repository files were changed.**
+This sheet is part of the VIS V0.2 concept delivery. **This sheet is published in the central VIS repository; the target product repository remains unchanged.**
